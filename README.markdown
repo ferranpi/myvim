@@ -83,6 +83,10 @@ From your homedirectory (on Linux/Mac OSX):
 >   use the defaults scheme add `colorscheme default`. Othewise you will get a
 >   highlighting error `"E411: highlight group not found: Normal"` during vim
 >   startup.
+>   Example (~/.vimrc.after):
+>     colorscheme gruvbox
+>     set background=dark
+>
 > - [vim-airline](#airline) requires some extra glyphs to work properly.  Check
 >   the official documentation on [font >
 >   installation](https://github.com/bling/vim-airline#integrating-with-powerline-fonts)
