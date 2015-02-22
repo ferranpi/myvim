@@ -59,7 +59,6 @@ plugin's docs for more info.
 * [Syntax plugins](#syntax)
 * ["Support" and "minor" plugins](#minor)
 * [Misc Bindings](#misc)
-* [Russian Translit Layout support](#russian)
 
 <a name=installation>
 ##### Installation
@@ -856,44 +855,15 @@ randomly chosen bits of vim goodness.
 * `"xp` paste from register x
 * `:reg` Display the contents of all numbered and named registers.
 
-
-[top](#top)
-
-<a name=russian>
-#### Russian Translit Layout support
-
-There is ~/.vim/bindings-ru-translit.vim file.
-
-OSX has a nice russian translit keyboard layout which I use when I need to
-write any russian text. The problem is that once I go to the normal mode
-nothing works. This is an attempt to make vim at least partially useful when
-the kerboard is in russioan translit mode and not in the default US mode. The
-idea is to remap the russian characters to the english characters that
-correspond to the same keyboard key. And a couple of userful multy-key
-combinations.
-
-Similar can be done for other keyboard layouts, your pull requests are
-welcome ;).
-
-To use this feature: just include the file from your ~/.local.vim:
-
-    source ~/.vim/bindings-ru-translit.vim
-
 [top](#top)
 
 <a name=writer>
 #### writer.vim
 
 My attempt to make vim look like iWriter ;)
-You can read about the details on [our blog][blog_writer].
 
 In short, just do `:so ~/.vim/writer.vim` when you are going to do some plain
 text writing.
 
-[blog_writer]: http://astrails.com/blog/2013/8/12/writing-markdown-with-style-in-vim
-
 [top](#top)
 
-#### Copyright
-
-&copy; 2012 [Vitaly Kushner](mailto:vitaly@astrails.com)
