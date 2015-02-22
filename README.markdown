@@ -66,9 +66,9 @@ plugin's docs for more info.
 
 From your homedirectory (on Linux/Mac OSX):
 
-* `git clone git://github.com/astrails/dotvim.git`
-* `ln -sfn dotvim .vim`
-* `ln -sfn dotvim/vimrc .vimrc`
+* `git clone git://github.com/ferranpi/myvim.git`
+* `ln -sfn myvim .vim`
+* `ln -sfn myvim/vimrc .vimrc`
 * `cd .vim; make install`
 
 
